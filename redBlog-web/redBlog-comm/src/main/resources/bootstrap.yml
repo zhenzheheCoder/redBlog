@@ -1,0 +1,13 @@
+
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8081
+      name: application
+      profile: euclient,rabbitmq,redis
+  application:
+    name: netty-server
+
+netty:
+  port: 8086

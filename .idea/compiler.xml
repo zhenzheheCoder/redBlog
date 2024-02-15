@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/redBlog-web/redBlog-entity/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EurekaServer" />
+        <module name="redBlog-user" />
+        <module name="redBlog-service-api" />
+        <module name="redBlog-post" />
+        <module name="Gateway" />
+        <module name="redBlog-friend" />
+        <module name="redBlog-entity" />
+        <module name="ConfigServer" />
+        <module name="redBlog-comm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="redBlog-comm-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigServer" options="-parameters" />
+      <module name="EurekaServer" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="redBlog-comm" options="-parameters" />
+      <module name="redBlog-comm-server" options="-parameters" />
+      <module name="redBlog-entity" options="" />
+      <module name="redBlog-friend" options="-parameters" />
+      <module name="redBlog-post" options="-parameters" />
+      <module name="redBlog-service-api" options="" />
+      <module name="redBlog-user" options="-parameters" />
+    </option>
+  </component>
+</project>

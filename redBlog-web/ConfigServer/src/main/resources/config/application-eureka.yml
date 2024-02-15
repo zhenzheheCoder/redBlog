@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8080/eureka
+    register-with-eureka: false
+    fetch-registry: false
+
+
+  renewalPercentThreshold=0:
+    85
+spring:
+  application:
+    name: redblog-eureka

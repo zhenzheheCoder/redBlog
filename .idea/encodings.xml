@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/redBlog-comm-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-service-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-web/ConfigServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-web/EurekaServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-web/Gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-web/redBlog-comm/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-web/redBlog-entity/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-web/redBlog-entity/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-web/redBlog-friend/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-web/redBlog-post/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/redBlog-web/redBlog-user/src/main/java" charset="UTF-8" />
+  </component>
+</project>
